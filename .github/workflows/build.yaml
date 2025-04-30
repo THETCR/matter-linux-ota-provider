@@ -87,7 +87,7 @@ jobs:
             example-prefix: linux-x64-
           - name: aarch64
             container: ghcr.io/project-chip/chip-build-crosscompile:129
-            runner: ubuntu-24.04
+            runner: ubuntu-24.04-aarch64
             example-prefix: linux-arm64-
         include:
           - examples: >-
